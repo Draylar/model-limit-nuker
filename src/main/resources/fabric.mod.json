@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "model-limit-nuker",
+  "version": "${version}",
+  "name": "Model Limit Nuker",
+  "description": "Library that removes .json model restrictions",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "model-limit-nuker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
